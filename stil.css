@@ -1,0 +1,79 @@
+@font-face
+{
+font-family:"MyriadPro-Regular";
+src:url("fontlar/MyriadPro-Regular.eot");
+src:url("fontlar/MyriadPro-Regular.woff2") format("woff2"), url("fontlar/MyriadPro-Regular.woff") format("woff"), url("fontlar/MyriadPro-Regular.ttf") format("truetype"), url("fontlar/MyriadPro-Regular.svg#MyriadPro-Regular") format("svg");
+font-weight:normal;
+font-style:normal;
+}
+@font-face
+{
+font-family:"Lucida Sans Unicode Regular";
+src:url("fontlar/Lucida Sans Unicode Regular.eot");
+src:url("fontlar/Lucida Sans Unicode Regular.woff2") format("woff2"), url("fontlar/Lucida Sans Unicode Regular.woff") format("woff"), url("fontlar/Lucida Sans Unicode Regular.ttf") format("truetype"), url("fontlar/Lucida Sans Unicode Regular.svg#Lucida Sans Unicode Regular") format("svg");
+}
+body{background-color:#e3e6e5; color:#8d8d8d; font-family:"MyriadPro-Regular";}
+.temizleyici{clear:both;}
+#anatutucu{width:60em; height:auto; margin:0 auto;}
+/* Sol Bölüm Başlangıç */
+#solbolum{float:left; width:12.5em; height:auto; margin-right:0.62em;}
+/* Logo Başlangıç */
+#logo{width:11.5em; height:3.4em; background-color:#fff; padding:1.57em 0 0 0.95em;  color:#4a8b86; margin-bottom:0.62em;}
+#logo p{font-size:1.25em;}
+#logo p span{font-size:1.75em;}
+/* Logo Bitiş */
+/* Sol Menü Başlangıç */
+#menuliste{width:inherit; height:12.87em; background-color:#fff; margin-bottom:0.62em;}
+#menuliste > nav > ul{width:inherit; height:12.87em;}
+#menuliste li{display:block; float:left; width:12.5em;}
+#menuliste li a{display:block; width:10.64em; text-decoration:none; color:#8d8d8d; padding:0.80em 0px 0.62em 0px; font-size:0.87em; margin-left:0.93em; border-bottom:1px solid #e3e6e5;}
+#menuliste > nav > ul > li:nth-last-child(1) a{border:none; padding-bottom:0px;}
+#menuliste li a.aktif,#menuliste li a:hover{color:#4a8b86;}
+#menuliste > nav > ul > li > ul{display:none; position:absolute; width:12.5em; margin-left:12.5em; margin-top:-2.21em; background-color:#fff; }
+#menuliste > nav > ul > li > ul > li{display:block; float:left; width:inherit;}
+#menuliste > nav > ul > li > ul > li:nth-last-child(1) a{border-bottom:10px;}
+/* Sol Menü Bitiş */
+/* Gönderiler Başlangıç */
+#gonderiler{width:10.62em; height:11.87em; background-color:#fff; padding:0.93em;}
+#gonderiler #tutucu{width:inherit; height:0.87em;}
+#gonderiler #tutucu h1{display:block; width:7.2em; float:left; margin-right:0.62em; font-size:0.87em; color:#4a8b86;}
+#gonderiler #tutucu .ciftcizgi{height:0.87em; width:3.50em; background:url("resimler/ciftcizgi.png") repeat-x left center; display:block; float:left;}
+.yorum{width:inherit; height:2.81em; margin-top:0.93em;}
+.yorum img{float:left; margin-right:0.62em;}
+.yorum .metin{width:9.42em; height:auto; overflow:hidden; float:left; font-family:"Lucida Sans Unicode Regular"; font-size:0.75em; line-height:1.65em;}
+/* Gönderiler Bitişi */
+/* Sol Bölüm Bitiş */
+/* Sağ Bölüm Başlangıç */
+#sagbolum{width:46.88em; height:auto; float:left;}
+/* Header Başlangıç */
+header{width:inherit; height:27.1em; display:block; margin-bottom:0.62em;}
+#sosyal{width:inherit; height:2.8em; background-color:#fff; margin-bottom:0.62em;}
+header #sosyal p{font-size:14px; text-transform:uppercase; margin:1.2em 0  0 1em; float:left;}
+header #sosyal img{float:right; margin:0.95em 1em 0px 0px;}
+#banner{width:45.9em; height:22.7em; background-color:#fff; padding:0.95em 0 0 0.95em;}
+#banner figure{width: 720px; height: 350px; overflow: hidden;}
+#banner figure ul li {width: 720px; height: 350px; float: left; list-style-type:none;}
+.sliderbuton{width:2.57em; height:1.06em; z-index:1; position:absolute; margin-top:20em; margin-left:41.5em;}
+.sliderbuton a{float:left;}
+/* Header Bitiş */
+/* İçerik Başlangıç */
+#icerik{width:45.9em; height:22.7em; background-color:#fff; padding:0.95em 0 0 0.95em; margin-bottom:0.62em;}
+.icerikkalip{width:44.95em; height:21.75em;}
+.icerikkalip .tutucu{width:inherit; height:0.93em; margin-bottom:1.12em;}
+.icerikkalip .tutucu h1{display:block; width:5.8em; float:left; margin-right:0.62em; font-size:0.93em; color:#4a8b86;}
+.icerikkalip .tutucu .ciftcizgi{height:0.93em; width:34.37em; background:url("resimler/ciftcizgi.png") left center repeat-x; display:block; float:left;}
+.icerik1{width:21.25em; height:19.68em; float:left;}
+.icerik2{width:10.93em; height:19.68em; float:left; margin-left:0.90em;}
+.icerik3{width:10.93em; height:19.68em;  float:left; margin-left:0.90em;}
+.icerik1 img,.icerik2 img,.icerik3 img{margin-bottom:0.81em;}
+.icerik1 h1,.icerik2 h1,.icerik3 h1{font-size:0.81em; margin-bottom:0.81em; color:#4a8b86;}
+.icerik1 p,.icerik2 p,.icerik3 p{font-size:0.75em; color:#7d7d7d; font-family:"Lucida Sans Unicode Regular"; line-height:1.37em;}
+#icerik .sliderbuton{width:2.57em; height:1.06em; z-index:1; position:absolute; margin-top:0px; margin-left:42.4em;}
+#icerik .sliderbuton a{float:left;}
+/* İçerik Bitiş */
+/* Footer Başlangıç */
+footer{width:46.87em; background-color:#fff; height:2.5em; text-indent:0.93em; line-height:2.5em; }
+footer img{position:absolute; margin-left:44.60em; margin-top:-1.8em;}
+footer p{font-family:"Lucida Sans Unicode Regular"; font-size:0.75em;}
+/* Footer Bitiş */
+/* Sağ Bölüm Bitiş */
